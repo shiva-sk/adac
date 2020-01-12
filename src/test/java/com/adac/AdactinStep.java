@@ -96,7 +96,7 @@ public class AdactinStep {
 
 	@Then("Exit the browser")
 	public void exit_the_browser() {
-	   
+	   driver.quit();
 	}
 
 }

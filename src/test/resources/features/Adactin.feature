@@ -10,5 +10,7 @@ Feature: To Validate Whole Booking process
     And Exit the browser
 
     Examples: 
-      | userName   |  | password |  | Location |  | Hotels        |  | Type   |  | Children |  | FirstName |  | LastName |  | BillingAddress |  | CType        |  | Month |
+      | userName   |  | password |  | Location |  | Hotels        |  | Type   |  | Children |  | FirstName |  | LastName |  | BillingAddress |  | CType       |  | Month |
       | shivask127 |  | OAZ65Z   |  | Sydney   |  | Hotel Cornice |  | Deluxe |  | 1 - One  |  | siva      |  | kumar    |  | OMR,Chennai    |  | Master Card |  | May   |
+
+  Scenario: to verify new user registration
